@@ -27,9 +27,9 @@ def tiwen_daka(s,headers):
             ti_for_title = str(time.strftime("%Y-%m-%d", time.localtime()))  # 获取时间，这个时间是放在SBRQ里面
             # 体温打卡数据,更改ID和UID
             data_tiWen = {
-                "ID": "XXXXXXXXX",
+                "ID": "9072329",
                 "SBRQ": ti_for_title + " 00:00:00",
-                "UID": "XXXXXXXX",
+                "UID": "1468592",
                 "UType": "1",
                 "WSTJSJ": ti_for_title + " 15:01:01",
                 "WSTW": "36.5",

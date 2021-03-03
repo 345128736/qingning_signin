@@ -61,7 +61,7 @@ if __name__ == '__main__':
     # 1.登陆并填体温
     s = login(headers=headers,data_person=data_person)
     tiwen_daka(s,headers=headers)
-
+    
 
 
 

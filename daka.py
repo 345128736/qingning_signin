@@ -61,7 +61,10 @@ if __name__ == '__main__':
     # 1.登陆并填体温
     s = login(headers=headers,data_person=data_person)
     tiwen_daka(s,headers=headers)
-    
+url="https://sc.ftqq.com/SCU160089T7f0b98fed51aaf1271f8805dc11e94f36029ec03c4c0e.send?text=今日全桉体温已经上报成功"
+requests.post(url)
+
+
 
 
 
